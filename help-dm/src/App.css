@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("./components/images/fire.jpg");
+}
+.soon{
+  margin-left: 800px;
+  color: #eee;
+}
+h1{
+  font-size: 60px;
+}
