@@ -9,8 +9,8 @@ export default function Combat(){
     return(
         <div className="field">
             
-            <input type="text" placeholder="Digite aqui o nome" onChange={handleField}/>
-            <button >ADD</button>
+            <input type="text" id="add" placeholder="Digite aqui o nome" onChange={handleField}/>
+            <button id="btn-combat">ADD</button>
             {field}
         </div>
     );

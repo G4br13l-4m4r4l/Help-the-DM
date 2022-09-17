@@ -6,6 +6,7 @@
     color: #eee;
     display: flex;
     justify-content: center;
+    opacity: 0.8;
 }
 .welcome li, a{
     list-style: none;
