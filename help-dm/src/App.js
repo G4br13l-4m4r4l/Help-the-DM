@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Intro from './components/menu';
+import Intro from './pages/menu';
 import './App.css';
-import { Home } from './components/Home';
-import NotFound from './components/NotFound';
-import Combat from './components/combat';
-import {BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom'
+import { Home } from './pages/Home';
+import NotFound from './pages/NotFound';
+import Combat from './pages/combat';
+import {BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
