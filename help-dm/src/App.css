@@ -13,3 +13,19 @@ body{
 h1{
   font-size: 60px;
 }
+main{
+  display: flex;
+  justify-content: center;
+}
+.link a{
+  
+  font-size: 35px;
+  margin: 15px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+.link a:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
